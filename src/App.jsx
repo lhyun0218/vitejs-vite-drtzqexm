@@ -9,7 +9,7 @@ function App() {
   const useInput = useRef(null)
   // 2. input창에서 검색 단어를 받아와 상태를 업데이트 하는 함수를 작성하세요.
   const getSearchValue = () => {
-    return useInput.current.value
+    return useInput.current.value // 리턴 까먹지 말기 !!!
   };
 
   return (
